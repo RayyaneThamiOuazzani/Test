@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Test</title>
+    <style>
+        body {
+            background: linear-gradient(rgb(175, 175, 81), rgb(107, 209, 107));
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            width: 55%;
+            height: 55%;
+            background-color: white;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 0;
+        }
+
+        .p1 {
+            background: url(img/cat.webp) no-repeat center center;
+            background-size: cover;
+            width: 35%;
+            height: 97%;
+            margin-left: 6px;
+            border-radius: 25px 0 0 25px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .p2 {
+            width: 65%;
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        h3 {
+            font-weight: bold;
+            text-align: right;
+            margin-top: 35px;
+            margin-right: 5px;
+            font-size: 1.2rem;
+        }
+        h1 {
+            font-size: 1.6rem;
+            margin-left: 40px;
+        }
+        p {
+            text-align: left;
+            word-spacing: 10px;
+            margin: 20px;
+        }
+        .doc {
+            background-color: rgb(90, 148, 90);
+            border: 5px solid white;
+            border-radius: 100%;
+            width: fit-content;
+            padding: 10px;
+            position: absolute;
+            top: 27%;
+            left: 100%;
+            transform: translate(-50%, -50%);
+        }
+        .doc i {
+            font-size: 40px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            margin-left: 40px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            gap: 20px;
+        }
+        .icons i {
+            font-size: 30px;
+            color: #4CAF50;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="p1">
+            <div class="doc">
+                <i class='bx bx-plus-medical'></i>
+            </div>
+        </div>
+        <div class="p2">
+            <h3>Care Pet Clinic.</h3>
+            <h1>Dr. John Doe</h1>
+            <p>Whether it's a routine check-up, emergency care, or specialized treatment,
+                we're here to keep your pets happy and healthy. Our experienced and friendly
+                team provides personalized care in a warm and welcoming environment.
+            </p>
+            <div class="icons">
+                <i class='bx bxs-like'></i>
+                <i class='bx bxs-envelope'></i>
+                <i class='bx bxs-map'></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
